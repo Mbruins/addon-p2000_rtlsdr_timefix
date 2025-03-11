@@ -9,7 +9,7 @@ import ssl
 import calendar
 import fnmatch
 import threading
-from datetime import datetime
+from datetime import timezone, datetime
 from json.decoder import JSONDecodeError
 import time
 from fcntl import ioctl
