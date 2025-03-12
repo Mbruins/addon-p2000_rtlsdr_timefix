@@ -1006,7 +1006,7 @@ class Main:
                 else:
                     # TODO
                     # After midnight (UTC), reset the opencage disable
-                    hour = datetime.now(timezone.utc).replace(tzinfo=None)
+                    hour = datetime.now(timezone.utc)
                     if (
                         hour.hour >= 0
                         and hour.minute >= 1
